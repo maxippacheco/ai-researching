@@ -6,10 +6,12 @@ This branch contains implementations of various linear regression techniques, in
 2. **Batch Gradient Descent (BGD)**
 3. **Least Squares Method (LSM)**
 4. **Locally Weighted Regression (LWR)**
+5. **Logistic Regression**
+6. **Softmax Regression**
 
 ## Overview
 
-Linear regression is a fundamental statistical method used to model the relationship between a dependent variable and one or more independent variables. This project implements four different approaches to perform linear regression, each with its unique advantages and use cases.
+Linear regression is a fundamental statistical method used to model the relationship between a dependent variable and one or more independent variables. This project implements various approaches to perform regression, including linear and logistic regression techniques, each with its unique advantages and use cases.
 
 ### Techniques Implemented
 
@@ -24,6 +26,12 @@ LSM provides a direct solution to linear regression by minimizing the sum of the
 
 #### 4. Locally Weighted Regression (LWR)
 LWR is a non-parametric method that builds a linear regression model for each point in the dataset, weighting nearby points more heavily than those further away. This approach allows for flexible modeling of relationships that vary over the input space.
+
+#### 5. Logistic Regression
+Logistic regression is a statistical method used for binary classification that models the probability of a certain class or event. It applies the logistic function to model the relationship between a dependent variable and one or more independent variables, resulting in a probability value between 0 and 1.
+
+#### 6. Softmax Regression
+Softmax regression is a generalization of logistic regression to multiple classes. It uses the softmax function to convert raw scores (logits) into probabilities for each class, ensuring that the probabilities sum to 1. This method is particularly useful for multi-class classification problems.
 
 ## Installation
 
